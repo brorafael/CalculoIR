@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using CalculoIR.Model.Services;
 
 namespace CalculoIR.Api
 {
@@ -22,6 +23,7 @@ namespace CalculoIR.Api
         {
             services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("DBContribuintes"));
             services.AddScoped<DataContext, DataContext>();
+            services.AddScoped<ICalculoIRService, CalculoIRService>();
             services.AddControllers();
         }
 

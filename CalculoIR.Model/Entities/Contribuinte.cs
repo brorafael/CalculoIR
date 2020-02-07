@@ -5,5 +5,6 @@
         public string Nome { get; set; }
         public string Cpf { get; set; }
         public double RendaMensal { get; set; }
+        public int QtdDependentes { get; set; }
     }
 }
