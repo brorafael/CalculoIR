@@ -4,7 +4,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
-const URL = 'https://localhost:44334/api/Contribuintes'//https://localhost:44334/api/CalculoIR/'
+const URL = 'https://localhost:44334/api/CalculoIR/'
 
 export class Calculo extends Component {
     static displayName = Calculo.name;

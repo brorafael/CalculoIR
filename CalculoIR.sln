@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoIR.Api", "CalculoIR.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoIR.Tests", "CalculoIR.Tests\CalculoIR.Tests.csproj", "{5C3FE0D3-C49C-4B6E-A966-1CDD47249D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR.Web", "CalculoIR.Web\CalculoIR.Web.csproj", "{42B78D93-028E-47D9-BDEC-C24545200B6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoIR.Web", "CalculoIR.Web\CalculoIR.Web.csproj", "{42B78D93-028E-47D9-BDEC-C24545200B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR.Desktop", "CalculoIR.Desktop\CalculoIR.Desktop.csproj", "{7E371A6D-E628-4EDD-9939-EFF6311B11D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{42B78D93-028E-47D9-BDEC-C24545200B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B78D93-028E-47D9-BDEC-C24545200B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B78D93-028E-47D9-BDEC-C24545200B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E371A6D-E628-4EDD-9939-EFF6311B11D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E371A6D-E628-4EDD-9939-EFF6311B11D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E371A6D-E628-4EDD-9939-EFF6311B11D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E371A6D-E628-4EDD-9939-EFF6311B11D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
