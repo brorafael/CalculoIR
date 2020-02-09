@@ -12,3 +12,14 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+td.label {
+    width: 25%;
+}
+td.texto{
+    width: 75%;
+}
+input.texto{
+    width: 95%;
+    margin-left: 5px;
+}
